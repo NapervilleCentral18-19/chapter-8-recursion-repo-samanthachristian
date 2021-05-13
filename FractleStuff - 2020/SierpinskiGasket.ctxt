@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=SierpinskiGasket
+comment1.params=
+comment1.target=SierpinskiGasket()
+comment2.params=page
+comment2.target=void\ paintComponent(java.awt.Graphics)
+comment3.params=xPos\ yPos\ page
+comment3.target=void\ Triangle(int[],\ int[],\ java.awt.Graphics)
+comment3.text=\ Draws\ a\ triangle\ \ in\ the\ middle\ of\ the\ 3\ x,y\ points\ provided\n\ \ \ \ \ \ \ \ finds\ the\ midpoints\ of\ triangles\ line\ segments\n\ \ \ \ \ \ \ \ uses\ midpoint\ to\ draw\ a\ triangle\ inside\ of\ the\ points\ provided\n\n\ \ \ @param\ array\ of\ 4\ points\ a\ ->\ b\ ->\ c\ ->\ a\n\n
+numComments=4
