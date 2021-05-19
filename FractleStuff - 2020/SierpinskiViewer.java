@@ -12,6 +12,7 @@ public class SierpinskiViewer
     //-----------------------------------------------------------------
     //  Sets up the components for the applet.
     //-----------------------------------------------------------------
+    
     public SierpinskiViewer()
     {
         drawing = new SierpinskiGasket();

@@ -35,7 +35,6 @@ public class SierpinskiGasket extends JPanel
    //-----------------------------------------------------------------
    public SierpinskiGasket()
     {
-        
         setBackground (Color.black);
         setPreferredSize (new Dimension(PANEL_WIDTH, PANEL_HEIGHT));
     }
@@ -75,14 +74,25 @@ public class SierpinskiGasket extends JPanel
         if (distance > 10)
         {
             //find midpoints and draw triangle
-            //int ABMidx = (xPos[0]
-            //int ABMidy = (
+            int ABMidx = (xPos[0] + xPos[1]);
+            int ABMidy = (yPos[0] + yPos[1]);
+            int BCMidx = (xPos[2] + xPos[3]);
+            int BCMidy = (yPos[2] + yPos[3]);
+           // int CAMidx = (xPos[4] + xPos[0]);
+            //int CAMidy = (yPos[4] + yPos[0]);
+            
             
             //draw the tri
-            
+            //Triangle(ABMidx, ABMidy, page);
+            page.drawLine(ABMidx, ABMidy, BCMidx, BCMidy);
             
             
             //call the 3 new triangles
+            if (ABMidx == 3)
+            System.out.println(1);
+            
+            else
+            Triangle(xPos, yPos, page);
            
 
 

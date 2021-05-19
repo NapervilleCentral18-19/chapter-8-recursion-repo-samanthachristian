@@ -4,7 +4,7 @@ public class Runner
     {
         CircleViewer viewer = new CircleViewer();
         
-        //SierpinskiViewer viewer = new SierpinskiViewer();
+        SierpinskiViewer viewer1 = new SierpinskiViewer();
 
         
     }
